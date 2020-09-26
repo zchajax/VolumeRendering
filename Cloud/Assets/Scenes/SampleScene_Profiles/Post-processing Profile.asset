@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e6292b2c06870d4495f009f912b9600, type: 3}
+  m_Name: Post-processing Profile
+  m_EditorClassIdentifier: 
+  settings:
+  - {fileID: 5395527829817666238}
+--- !u!114 &5395527829817666238
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24300e88a3664a846846ef74e1fc8c4c, type: 3}
+  m_Name: Cloud
+  m_EditorClassIdentifier: 
+  active: 1
+  enabled:
+    overrideState: 1
+    value: 1
+  shapNoiseMap:
+    overrideState: 1
+    value: {fileID: 11700000, guid: 8bc056b0bd051af4ca26d31e9b451b3d, type: 2}
+    defaultState: 1
+  detailNoiseMap:
+    overrideState: 1
+    value: {fileID: 11700000, guid: 0cdb6619824cf80418a4cffa9e2d379b, type: 2}
+    defaultState: 1
+  weatherMap:
+    overrideState: 1
+    value: {fileID: 2800000, guid: ebf6319e58fdaf54ea9554d01de79f09, type: 3}
+    defaultState: 1
+  maskNoiseMap:
+    overrideState: 1
+    value: {fileID: 2800000, guid: 42ee267fa62528e429743f61a4ec92e6, type: 3}
+    defaultState: 1
+  blueNoiseMap:
+    overrideState: 1
+    value: {fileID: 2800000, guid: c1d7e6c920002114eab31bc302cb251c, type: 3}
+    defaultState: 1
+  shapeTilling:
+    overrideState: 1
+    value: 0.01
+  detailTilling:
+    overrideState: 1
+    value: 0.1
+  AbsorptionFromLight:
+    overrideState: 1
+    value: 0.16
+  AbsorptionFromCloud:
+    overrideState: 1
+    value: 0.92
+  jitterStrength:
+    overrideState: 1
+    value: 1.5
+  detailWeights:
+    overrideState: 1
+    value: -3.99
+  detailNoiseWeights:
+    overrideState: 1
+    value: 0.12
+  cloudDensity:
+    overrideState: 1
+    value: 2.29
+  step:
+    overrideState: 1
+    value: 1.5
+  shapeNoiseSpeed:
+    overrideState: 1
+    value: 0.02
+  detailNoiseSpeed:
+    overrideState: 1
+    value: 0.5
+  windDirection:
+    overrideState: 1
+    value: 6.28
